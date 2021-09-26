@@ -48,7 +48,7 @@ module binary(num) {
     }
 }
 
-if(mode == "roman") {
+if(mode == "arabic") {
     difference() {
         cube([300,300,vertical_size], center=true);
         for(i=[0:(sides/2)-1]){
